@@ -92,7 +92,7 @@ export const CreateLink = () => {
                 </div>
             </div>
             <div className="content">
-                {id !== "" && <a>localhost:3000/{id}</a>}
+                {id !== "" && <a>https://main.d2bq7l37fni1o6.amplifyapp.com/payment/{id}</a>}
             </div>
         </div>
     )
