@@ -36,3 +36,18 @@
     background: #6060F6 !important;
     width: 500px;
 }
+
+.cardImage {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.cardImage svg {
+    margin-left: 5px
+}
+
+.cardWrapper {
+    position: relative;
+}
