@@ -1,0 +1,38 @@
+.form {
+    width: 500px;
+}
+
+.wrapper {
+    align-items: center;
+}
+
+.card-number-wrapper {
+    margin-top: 30px
+}
+
+.smallInputLeft {
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-top: none!important;
+    border-right: none!important;
+}
+
+.smallInputRight {
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    border-top: none!important;
+}
+
+.largeInput {
+    border-bottom-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+
+.payBtn {
+    margin-top: 30px;
+    font-weight: bold !important;
+    background: #6060F6 !important;
+    width: 500px;
+}
