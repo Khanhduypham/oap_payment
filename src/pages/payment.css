@@ -1,40 +1,44 @@
-.form {
-    width: 500px;
-}
 
 .wrapper {
     align-items: center;
 }
 
-.card-number-wrapper {
-    margin-top: 30px
+.nameInput {
+    border: solid 1px #999999 !important;
 }
 
 .smallInputLeft {
-    border-top-left-radius: 0!important;
-    border-top-right-radius: 0!important;
-    border-bottom-right-radius: 0!important;
+    border-bottom-left-radius: 8px;
+    border: solid 1px #999999;
     border-top: none!important;
     border-right: none!important;
+    height: 40px;
+    padding-left: 10px;
 }
 
 .smallInputRight {
-    border-top-left-radius: 0!important;
-    border-top-right-radius: 0!important;
-    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 8px;
+    border: solid 1px gray;
     border-top: none!important;
+    height: 40px;
+    padding-left: 10px;
 }
 
 .largeInput {
-    border-bottom-right-radius: 0!important;
-    border-bottom-left-radius: 0!important;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 100%;
+    height: 40px;
+    border: solid 1px gray;
+    padding-left: 10px;
 }
 
 .payBtn {
-    margin-top: 30px;
     font-weight: bold !important;
     background: #6060F6 !important;
-    width: 500px;
+    border: #6060F6 !important;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .cardImage {
@@ -50,4 +54,10 @@
 
 .cardWrapper {
     position: relative;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    margin-top: 5px
 }
